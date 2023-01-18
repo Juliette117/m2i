@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <a href="./home.html">Accueil</a>
+
+    <h1>Votre réservation d'hotêl</h1>
+    <h2>*Champs obligatoires</h2>
+        <form action="./home.html" method="get">
+            <label for="Nom">Nom*
+                <input type="text" required  placeholder="Nom" id="Nom" name="Nom"><br>
+            </label><br>
+            <label for="Prénom">Prénom*
+                <input type="text" required placeholder="Prénom" id="Prénom" name="Prénom"><br>
+            </label><br>
+            <label for="Tel">Numéro de téléphone*
+                <input type="tel" required  id="Tel" name="Tel"><br>
+            </label><br>
+            <label for="email">E-mail*
+                <input type="email" required  id="email" name="email"><br>
+            </label><br>
+            <label for="villes">Selectionne la ville :</label>
+                <select class="villes" name="villes" id="villes">
+                    <option value="Paris">Paris</option>
+                    <option value="Lens">Lens</option>
+                    <option value="Marseille">Marseille</option>
+                    <option value="Monaco">Monaco</option>
+                    <option value="Rennes">Rennes</option>
+                    <option value="Lille">Lille</option>
+                    <option value="Lorient">Lorient</option>
+                </select><br>
+            <label for="date">Date d'arrivée
+                <input type="date" required  id="date" name="date"><br>
+            </label><br>
+            <label for="number">Nombre de personnes*
+                <input type="number" required  id="number" name="number" min="1" ><br>
+            </label><br>
+            <label for="options">Options :
+                <input type="checkbox" name="options" frvalue="Clim">Clim
+                <input type="checkbox" name="options" value="Mini bar">Mini bar
+                <input type="checkbox" name="options" value="Piscine">Piscine
+            </label><br>
+            <textarea name="textarea" id="textarea" placeholder="Dis ce que tu veux" cols="30" rows="10"></textarea>
+            <label for="cgv">CGV*
+ <span><input class="validate[required, funcCall[validatecg]] radio1" type="radio" name="cg" value="oui" id="acceptation" tabindex="90"/> <label for="oui">J'accèpte</label></span>
+ <span><input class="validate[required, funcCall[validatecg]] radio2" type="radio" name="cg" value="non" id="refus" /> <label for="non" checked>Je refuse</label></span>
+            </label><br>
+            <button>Envoyer ma demande</button><hr>
+            <label for="password">MDP
+                <input type="password"><br>
+            </label>
+        </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
