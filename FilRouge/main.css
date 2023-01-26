@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Press+Start+2P&display=swap');
+
+/**{
+    padding: 0;
+    margin: 0;
+}*/
+
+*{
+    font-family: 'Courgette', cursive;
+}
+
+body{
+    color: #313756;
+}
+
+/*__________TITRE__________*/
+.titre{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 1em ;
+}
+h1::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    border-radius: 50%;
+    background: #9CA3AE;
+    transition: 0.7s ease-in-out;
+}
+h1:hover::after{
+    content: "おはよう";
+    text-align: center;
+    width: 15%;
+}
+
+/*__________LIENS__________*/
+a{
+    color: #313756 !important;
+    text-decoration: none !important; 
+}
+a:hover{
+    color: #994C4C;
+    filter: drop-shadow(0 0 0.75rem silver);
+}
+a:visited{
+    color: #994C4C !important;
+}
+
+/*__________ESPACE SOUS LE TITRE__________*/
+.espace{
+    padding: 2%;
+}
+
+/*__________FOND__________*/
+.ellipse {
+    position: fixed;
+    margin: -2% 0 0 37%;
+    width: 500px;
+    height: 500px;
+    background-color: #FE1B00;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: -1;
+}

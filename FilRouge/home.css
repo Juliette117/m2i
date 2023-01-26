@@ -1,0 +1,26 @@
+.bonus{
+    font-size:larger;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+/*__________CARDS__________*/
+.card {
+    border: 5px solid #EFEAEA !important;
+  }
+.card:hover{
+    /*box-shadow: 4px 4px #313756;*/
+    filter: drop-shadow(0 0 1rem #9CA3AE);
+    transition: 0.1s ease-in-out;
+    width: 101%;
+}
+.card-body {
+    background-color: #EFEAEA;
+    font-size: larger;
+}
+.card-img-top{
+    max-height: 170px;
+    min-height: 170px;
+}

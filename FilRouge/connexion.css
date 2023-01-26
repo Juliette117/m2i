@@ -1,0 +1,89 @@
+/*__________FORMULAIRE__________*/
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 1px solid #CDB1A8; 
+    background-color: #EFEAEA;
+    padding: 20px;
+    width: 20%;
+    border-radius: 30px;
+}
+form:active{
+    border: 1px solid #EFEAEA; 
+}
+
+textarea {
+    color: #EFEAEA;
+    background-color: #CDB1A8;
+    border: 2px solid #EFEAEA;
+    border-radius: 10px;
+    width : 100%;
+    min-height : 100px;
+    max-width : 375px;
+    max-height : 300px;
+    padding: 7px;
+}
+textarea::placeholder{
+    color: #EFEAEA; 
+    padding: 10px;   
+}
+
+button {
+    padding: 7px;
+    margin: 7px 7px 7px 100px !important;
+    color: #313756;
+    border: 1px solid #EFEAEA;
+    filter: drop-shadow(0 0 0.5rem silver);
+    border-radius: 20px !important;
+}
+button:hover {
+    background-color:#994C4C;
+    color: #EFEAEA;
+    border: 2px solid silver;
+    border-radius: 30px;
+    }    
+button:active {
+    background-color:#CDB1A8;
+    box-shadow:1px 1px 1px #994C4C inset;
+}
+
+input{
+    padding: 7px 130px 7px 10px;
+    background-color: #fff;
+    border: 1px solid #EFEAEA;
+    border-radius: 20px;
+    background-color: #CDB1A8;
+}
+input:active{
+    border: 2px solid white;
+}
+input[type=text]::placeholder, input[type=email]::placeholder{
+    color: #EFEAEA;
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.create::after{
+    content: "";
+    width: 0%;
+    transition: 0.7s ease-in-out;    
+}
+.create:hover{
+    color: #994C4C;
+    filter: drop-shadow(0 0 0.75rem silver);
+    
+}
+.create :hover::after{
+    content: " Créer un profil";
+    width: 40%;
+}
+
+
