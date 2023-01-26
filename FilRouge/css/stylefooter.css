@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Courgette', cursive;
+    color: #313756;
+    font-size: 20px;
+}
+#footer{
+    background-color: rgb(239, 234, 234);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    position: relative ;
+    bottom: 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #313756;
+    transition: 1000ms;
+}
+#profil:hover{
+    font-size: 32px;
+    transition: 1000ms;
+}
+#contact:hover{
+    font-size: 32px;
+    transition: 1000ms;
+}
+#cgu:hover{
+    font-size: 32px;
+    transition: 1000ms;
+}

@@ -1,30 +1,159 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="japon">
-    <meta name="description" conent="site sur le japon">
-    <link rel="stylesheet" href="main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="index.js"></script>
-    <title>OHAYO</title>
+    <title>Accueil cinéma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/stylefooter.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<style>
+    body{
+        font-family: "Courgette", cursive;
+        color: #313765;
+    }
+    a{
+        text-decoration: none;
+        color: #313765;
+    }
+    body img{
+        height: 150px;
+    }
+    .link-color-text:hover{
+        color: #313765;
+    }
+    p{
+        text-indent: 2rem;}
+    h3{
+        padding-bottom: 2rem;
+    }
+    #clicarticle{
+        height: 20px;
+        width: 40px;
+        margin-top: -5%;
+        margin-right: 3rem;
+    }
+    header img{
+            height: 60px;
+    }
+    header{
+            height: 62px;
+            background-color: rgb(239, 234, 234);
+            font-family: "Courgette", cursive;
+            color: #313756;
+    }
+    .ms-6{
+            margin-left: 25%
+    }
+    .ms-7{
+            margin-left: 38%;
+    }
+    .bg-ohayo-dark{
+            background-color: #994C4C;
+    }
+    .bg-ohayo-light{
+            background-color: #CDB1A8;
+    }
+    .dropdown-item:hover{
+            background-color: #994C4C;
+    }
+    .dropdown-item{
+        border-radius: 0.35rem;
+    }
+    #logosearch{
+            height: 20px;
+    }
+    .active-in{
+        background-color: #9CA3AE;
+    }
+
+</style>
 </head>
-
 <body>
+   
+    <header class="d-flex flex-row justify-content-between sticky-top">
+        <div class="dropdown align-self-center">
+            <button class="btn dropdown-toggle bg-ohayo-dark ms-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Catégories
+            </button>
+            <ul class="dropdown-menu p-2 bs-border-radius">
+              <li><a class="dropdown-item bg-ohayo-light my-2 active-in" href="./cinema.html">Cinema</a></li>
+              <li><a class="dropdown-item bg-ohayo-light my-2" href="./histoire.html">Histoire et culture</a></li>
+              <li><a class="dropdown-item bg-ohayo-light my-2" href="./art.html">Arts</a></li>
+              <li><a class="dropdown-item bg-ohayo-light my-2" href="./bouffe.html">Gastronomie</a></li>
+              <li><a class="dropdown-item bg-ohayo-light my-2" href="./manga.html">Manga et Anime</a></li>
+              <li><a class="dropdown-item bg-ohayo-light my-2" href="./langue.html">Langue</a></li>
+              <li><a class="dropdown-item bg-ohayo-light my-2" href="./inventions.html">Inventions</a></li>
+            </ul>
+        </div>
+        <div class="ms-7">
+            <a href="./home.html"><img 
+                src="./Assets/Images/logo.png" 
+                alt="Logo Ohayo"
+                title="Logo du Site Ohayo"
+                id="logo"></a>
+        </div>
+        <div class="align-self-center ms-6">
+            <input type="search" 
+            name="Searchbar"
+            placeholder="Recherche ...">
+            <img src="./Assets/Images/search.svg"
+            alt="Icone de recherche"
+            id="logosearch"
+            position="absolute"
+            class="me-3">
+        </div>
+        <div>
+            <a href="./#">
+                <img src="./Assets/Images/profilvec.png" 
+                alt="Image profil"></a>
+        </div>
+
+    </header>
+
+    <div>
+        <h2 class="text-center m-3 text-decoration-underline">えいがかん - Cinéma</h2>
+        <section class="p-3 py-3">random</section>
+            <section>
+                <a href="./#1" class="link-color-text border-link" target="_self">
+                    <article class="p-5"><img src="./Assets/Images/hayaomiyazaki.jpg" 
+                        alt="Illustration de l'article représentant Hayao Miyazaki et son travail"
+                        title="Hayao Miyazaki et son travail."
+                        class="float-start me-5">
+                        <h3 class="text-decoration-underline"> Hayao Miyazaki, le roi du tout public.</h3>
+                        <p>S'il y a un réalisateur qui représente la beauté des films familiaux, c'est bien Hayao Miyazaki. 
+                        Considéré par certains comme un réalisateur de films pour enfants, la réalité est toute autre : 
+                        son univers magique qui transporte petits et grands et connu et reconnu dans le monde. "Le parrain de l'animation"
+                        est un créateur immortel, dont l'univers inspire de nombreux esprits.</p></article>
+                        <img src="./Assets/Images/justify-left.svg" alt="Article" title="Cliquez pour lire l'article." id="clicarticle"class="float-end"></a>
+                    <section>
+                        <a href="./#2"class="link-color-text target" target="_self">
+                            <article class="p-5"><img src="./Assets/Images/combat sans code d'honneur affiche.jpg" 
+                                alt="Illustration de l'article sur les films de Yakuza ça représente l'affiche de Combat sans code d'honneur"
+                                title="Affiche de Combat sans code d'Honneur"
+                                class="float-start me-5">
+                                <h3 class="text-decoration-underline"> Le Cinéma de Yakuza des 70s, mode miroir des films de gangster d'Hollywood ?</h3>
+                                <p>Les années 70 marquent la mode des films de gangster à Hollywood : Coppola, Scorcese, figurent parmi les
+                                    plus emblématiques réalisateurs de cette mode. A la même période au Japon, Kinji Fukasaku réalise la très célèbre
+                                    série de cinq films qui porte le nom de Yakuza Papers en anglais, inspiréé d'une série de mémoires de ōichi Iiboshi,
+                                    journaliste japonais. Coincidence ou inspiration ? Et si un cinéma a influencé un autre, lequel était-ce ?</p></article>
+                                    <img src="./Assets/Images/justify-left.svg" alt="Article" title="Cliquez pour lire l'article." id="clicarticle"class="float-end"></a>
+                        </a>
+                    </section>
+            </section>
+            
+    </div>
+
+    <footer id="footer">
+        <a href="./profil.html" id="profil">Profil</a>
+        <a href="./contact.html" id="contact">Contact</a>
+        <a href="./cgu.html" id="cgu">CGU</a>
+    </footer>
+
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    
-    <h1 class="titre">OHAYO</h1>
-
-        <div class="espace"></div>
-        <div class="ellipse"></div>
-
-        <a href="./home.html">Accueil</a>
-        
-
-
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>   
 </body>
-
 </html>
