@@ -1,0 +1,11 @@
+.illustration-article {
+    height: 150px;
+}
+.link-color-text{
+    text-decoration: none;
+    color: #313756;
+}
+.link-color-text:hover{
+    text-decoration: none;
+    color: #313756;
+}
