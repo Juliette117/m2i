@@ -11,7 +11,98 @@
 
 body{
     color: #313756;
+    
 }
+
+/*__________HEADER__________*/
+header img{
+    width: 7rem;
+}
+header{    
+    background-color: #EFEAEA;
+}
+.ms-6{
+    margin-left: 30rem;
+}
+.ms-7{
+    margin-left: 30rem;
+}
+
+.bg-ohayo-dark{
+    background-color: #994C4C;
+    color: #EFEAEA;
+}
+.bg-ohayo-light{
+    background-color: #CDB1A8;
+    color: #EFEAEA !important;
+}
+.dropdown-item:hover{
+    color: #EFEAEA;
+    background-color: #994C4C;
+}
+.dropdown-item{
+    color: #EFEAEA;
+    border-radius: 0.35rem;
+    font-size: 20px;
+}
+
+.dropdown-item a:visited{
+    color: #313756;
+}
+.active-in{
+    background-color: #9CA3AE;
+}
+
+[type=button]{
+    border: none;
+    position: absolute;
+    height: 55px;
+    width: 210px;
+    margin-top: -2rem;
+    font-size: 30px;
+    padding-right: 2rem;
+}
+[type=button]::before, [type=button]::after{
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    margin: 20px 0 0 4px;
+}
+.dropdown-menu.show{
+    background-color: #EFEAEA;
+}
+
+#searchbar{
+    color: #313756;
+    border: 1px solid #CDB1A8;
+position: absolute;
+border-radius: 1rem;
+padding: 7px 7px 7px 17px;
+margin: 0 0 0 -22rem;
+}
+
+.iconsearch{
+    position: absolute;
+    margin: 0 0 0 -11rem;
+    color: #9ca3ae77;
+    font-size: 30px;
+    
+}
+
+.neko{
+    position: absolute;
+    margin: 0 0 0 111rem;
+}
+.neko:hover{
+    height: 100%;
+    background-color: #EBE9E4;
+    box-shadow: #994C4C 0px -2px 5px 0px inset;
+    border-radius: 50%;
+}
+.neko a:visited{
+    color: #313756;
+}
+
+
 
 /*__________TITRE__________*/
 .titre{
@@ -37,15 +128,14 @@ h1:hover::after{
 
 /*__________LIENS__________*/
 a{
-    color: #313756 !important;
+    color: #313756;
     text-decoration: none !important; 
 }
 a:hover{
     color: #994C4C;
-    filter: drop-shadow(0 0 0.75rem silver);
 }
 a:visited{
-    color: #994C4C !important;
+    color: #994C4C;
 }
 
 /*__________ESPACE SOUS LE TITRE__________*/

@@ -85,5 +85,8 @@ input[type=text]::placeholder, input[type=email]::placeholder{
     content: " Créer un profil";
     width: 40%;
 }
+.create a{
+    color: #313756;
+}
 
 
