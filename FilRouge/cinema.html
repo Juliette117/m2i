@@ -10,68 +10,11 @@
     <link rel="stylesheet" href="./css/stylefooter.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-<style>
-    body{
-        font-family: "Courgette", cursive;
-        color: #313765;
-    }
-    a{
-        text-decoration: none;
-        color: #313765;
-    }
-    body img{
-        height: 150px;
-    }
-    .link-color-text:hover{
-        color: #313765;
-    }
-    p{
-        text-indent: 2rem;}
-    h3{
-        padding-bottom: 2rem;
-    }
-    #clicarticle{
-        height: 20px;
-        width: 40px;
-        margin-top: -5%;
-        margin-right: 3rem;
-    }
-    header img{
-            height: 60px;
-    }
-    header{
-            height: 62px;
-            background-color: rgb(239, 234, 234);
-            font-family: "Courgette", cursive;
-            color: #313756;
-    }
-    .ms-6{
-            margin-left: 25%
-    }
-    .ms-7{
-            margin-left: 38%;
-    }
-    .bg-ohayo-dark{
-            background-color: #994C4C;
-    }
-    .bg-ohayo-light{
-            background-color: #CDB1A8;
-    }
-    .dropdown-item:hover{
-            background-color: #994C4C;
-    }
-    .dropdown-item{
-        border-radius: 0.35rem;
-    }
-    #logosearch{
-            height: 20px;
-    }
-    .active-in{
-        background-color: #9CA3AE;
-    }
+    <link rel="stylesheet" href="./css/styleheader.css">
+    <link rel="stylesheet" href="./css/stylecinema.css">
 
-</style>
 </head>
+
 <body>
    
     <header class="d-flex flex-row justify-content-between sticky-top">
@@ -79,7 +22,7 @@
             <button class="btn dropdown-toggle bg-ohayo-dark ms-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Catégories
             </button>
-            <ul class="dropdown-menu p-2 bs-border-radius">
+            <ul class="dropdown-menu p-2 bs-border-radius drop-mm">
               <li><a class="dropdown-item bg-ohayo-light my-2 active-in" href="./cinema.html">Cinema</a></li>
               <li><a class="dropdown-item bg-ohayo-light my-2" href="./histoire.html">Histoire et culture</a></li>
               <li><a class="dropdown-item bg-ohayo-light my-2" href="./art.html">Arts</a></li>
@@ -122,7 +65,7 @@
                     <article class="p-5"><img src="./Assets/Images/hayaomiyazaki.jpg" 
                         alt="Illustration de l'article représentant Hayao Miyazaki et son travail"
                         title="Hayao Miyazaki et son travail."
-                        class="float-start me-5">
+                        class="float-start me-5 illustration-article">
                         <h3 class="text-decoration-underline"> Hayao Miyazaki, le roi du tout public.</h3>
                         <p>S'il y a un réalisateur qui représente la beauté des films familiaux, c'est bien Hayao Miyazaki. 
                         Considéré par certains comme un réalisateur de films pour enfants, la réalité est toute autre : 
@@ -130,11 +73,11 @@
                         est un créateur immortel, dont l'univers inspire de nombreux esprits.</p></article>
                         <img src="./Assets/Images/justify-left.svg" alt="Article" title="Cliquez pour lire l'article." id="clicarticle"class="float-end"></a>
                     <section>
-                        <a href="./#2"class="link-color-text target" target="_self">
+                        <a href="./#2"class="link-color-text" target="_self">
                             <article class="p-5"><img src="./Assets/Images/combat sans code d'honneur affiche.jpg" 
                                 alt="Illustration de l'article sur les films de Yakuza ça représente l'affiche de Combat sans code d'honneur"
                                 title="Affiche de Combat sans code d'Honneur"
-                                class="float-start me-5">
+                                class="float-start me-5 illustration-article">
                                 <h3 class="text-decoration-underline"> Le Cinéma de Yakuza des 70s, mode miroir des films de gangster d'Hollywood ?</h3>
                                 <p>Les années 70 marquent la mode des films de gangster à Hollywood : Coppola, Scorcese, figurent parmi les
                                     plus emblématiques réalisateurs de cette mode. A la même période au Japon, Kinji Fukasaku réalise la très célèbre

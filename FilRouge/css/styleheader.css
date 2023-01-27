@@ -1,0 +1,39 @@
+header img{
+    height: 60px;
+}
+header{
+    height: 62px;
+    background-color: rgb(239, 234, 234);
+    font-family: "Courgette", cursive;
+    color: #313756;
+}
+.ms-6{
+    margin-left: 25%
+}
+.ms-7{
+    margin-left: 38%;
+}
+.bg-ohayo-dark{
+    background-color: #994C4C;
+}
+.bg-ohayo-light{
+    background-color: #CDB1A8;
+}
+.dropdown-item:hover{
+    background-color: #994C4C;
+}
+.dropdown-item{
+    border-radius: 0.35rem;
+}
+#logosearch{
+    height: 20px;
+}
+.active-in{
+background-color: #9CA3AE;
+}
+.drop-mm{
+    transform: scale(4);
+    transform-origin: bottom;
+    transition: 600ms;
+}
+
