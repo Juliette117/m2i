@@ -45,6 +45,7 @@ let filmsdujour = [
             synopsis : "Sophie, une orpheline de 18 ans, travaille dur dans la boutique de chapelier que lui a laissée son père. Un jour, en ville, elle croise Hauru, un magicien très séduisant, mais faible de caractère. Une sorcière, se méprenant sur leurs sentiments, change Sophie en une vieille femme de 90 ans."
         }
 ]
+console.log(filmsdujour);
 function getRandomItem(filmsdujour) {
     let randomIndex = Math.floor(Math.random() * filmsdujour.length);
     let item = filmsdujour[randomIndex];
@@ -53,7 +54,6 @@ function getRandomItem(filmsdujour) {
 
 let result = getRandomItem(filmsdujour);
 console.log(result);
-.innerHTML = result;
 
 
 /*cibler un élément aléatoire avec un calcul 
