@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Press+Start+2P&display=swap%27);
+
+body{
+    font-family: 'Courgette', cursive;
+    color: #000000; 
+    text-align: center;
+
+ background-image: url(../Assets/Image/Sao.jpg) ;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ 
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.451);
+    
+    
+}
+
+
+.bouton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bouton2{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.div2{
+    padding-right: 0cm;
+    padding-bottom: 3cm;
+    
+}
+
+
+
+.div3{
+    padding-right: 0cm;
+    padding-bottom: 2cm;
+    
+}
+
+img {
+    width : 300px;
+    height : 400px;
+    }
+
+.div4{  
+        padding-right: 2cm;
+        padding-bottom: 2cm;
+}
+
+

@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Press+Start+2P&display=swap%27);
+
+body{
+    font-family: 'Courgette', cursive;
+    color: #0c0c0c; 
+
+ background-image: url(../Assets/Image/Tensura2.jpg) ;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ 
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.379);
+    text-align: center;
+    
+}
+
+
+.bouton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bouton2{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.div2{
+    padding-right: 36cm;
+    padding-bottom: 2cm;
+    
+}
+
+img {
+    width : 250px;
+    height : 300px;
+    }
+
+
+
