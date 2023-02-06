@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Press+Start+2P&display=swap%27);
+
+body{
+    font-family: 'Courgette', cursive;
+    color: #313756;
+
+
+    text-align: center;
+
+    background-image: url(../Image/fond-d-écran-mont-fuji.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-attachment: fixed;
+
+    
+}
+
+.Epoque {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Tradition {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.Epoque, .Tradition {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.col {
+    column-width: 600px;
+    align-items: center;
+  }
+  .bouton {
+    background: rgba(196, 193, 193, 0.626);
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 100px;
+  color: #313756;
+  margin: 7% 0;
+  }
+
+.illustration {
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+padding-left: 1cm;
+margin: 2% 0;
+}
+
+.entête {
+    display: flex;
+    text-align: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.entête h2 {
+    font-size: 60px;
+}
+
+
+.article {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(196, 193, 193, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: #313756;
+}
+
+.article p {
+width: 45%;
+font-size: 17px;
+
+}
+
+.button {
+    font-size: 20px;
+    color: #313756;
+    text-align: end;
+    padding-right: 1cm;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+
+}
+
+.meiji {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(196, 193, 193, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: #313756;
+}
+
+.meiji p {
+    width: 45%;
+font-size: 17px;
+}
+
+.title h2 {
+    font-size: 55px;
+}
+.catégorie h3 {
+    font-size: 30px;
+
+}
+
+.title2 {
+    display: flex;
+    text-align: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.title2 h3 {
+    font-size: 30px;
+}
