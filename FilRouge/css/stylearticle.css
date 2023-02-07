@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section img {
+    height: 300px;
+}
+p {
+    text-indent: 3rem;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    
+}
+
+.float-right{
+ float: right;
+}
+.float-left{
+    float: left;
+}
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+.block{
+    display: block;
+}
+
+.ml{
+    margin-left: 2rem;
+}
+.my{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#porco{
+    float: left;
+    margin-left: -15rem;
+}
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    padding: 2rem;
+}
+h2{
+    padding-bottom: 3rem;
+}

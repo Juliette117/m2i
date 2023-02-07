@@ -1,20 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le Japon moderne</title>
-    <link rel="shortscut icon" href="../Image/logo-OHAYO.png">
-    <link rel="stylesheet" href="../Style/histoire.css">
+    <meta name="keywords" content="japon">
+    <meta name="description" content="site sur le japon">
+    <link rel="shortcut icon" href="./Assets/Images/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/histoire.css">
+    <title>OHAYO</title>
 </head>
 <body>
+
+    <header class="d-flex flex-row justify-content-between sticky-top">
+        <div class="dropdown align-self-center">
+          <div id="button">
+              <button class="btn dropdown-toggle bg-ohayo-dark ms-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Catégories
+              </button>
+              <ul class="dropdown-menu p-2 bs-border-radius">
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./cinema.html">Cinema</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./histoire.html">Histoire et culture</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./art.html">Arts</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./bouffe.html">Gastronomie</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./manga.html">Manga et Anime</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./langue.html">Langue</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./inventions.html">Inventions</a></li>
+              </ul>
+          </div>
+        </div>
+          <div class="ms-7">
+              <a href="home.html"><img 
+                  src="./Assets/Images/logo-round.gif" 
+                  alt="Logo Ohayo"
+                  title="Logo du Site Ohayo"
+                  id="logo"></a>
+          </div>
+          <div class="align-self-center ms-6">
+              <input type="search" 
+              name="Searchbar" placeholder="Recherche..." id="searchbar">
+              <div class="iconsearch">
+                <iconify-icon icon="bi:search-heart"></iconify-icon>
+              </div>
+          </div>
+          <div class="neko">
+              <a href="./connexion.html">
+                  <iconify-icon icon="arcticons:neko" width="120" height="120"></iconify-icon></a>
+          </div>
+      </header>
+      
+          <div class="espace"></div>
+      
+          <h1 class="titre">OHAYO</h1>
+      
+              <div class="espace"></div>
+              <div class="ellipse"></div>
+      
     <div class="main">
 
         
         
         <div class="illustration">
-            <img src="../Image/edefefe.jpg" height="250" alt="Après-Guerre">
+            <img src="./Assets/Images/edefefe.jpg" height="250" alt="Après-Guerre">
         </div>
         <section class="entête"><h2>L'après guerre</h2></section>
     
@@ -29,6 +83,14 @@
             Passé d’Empire du Japon à Etat du Japon, le pays traverse une période de grande dépression. Le but des USA est de faire appliquer le traité de Postdam par le Japon. Ce dernier souffre de mauvaises récoltes qui engendreront des famines, des millions de civils se retrouvent sans logement et sont déplacés, plusieurs villes sont en ruines, etc. En plus de destituer l’empereur de sa nature divine, la constitution est elle aussi réécrite. L’armée japonaise devient une armée de défense autorisée à ne prendre part dans les conflits internationaux que pour des missions de police et de reconstruction. Ces dernières années, le premier ministre Abe Shinzo a voulu modifier cette clause de la constitution soulevant d’extraordinaires mouvements de foule d’opposition. Les terres sont rachetées aux riches propriétaires et revendues à bas prix pour des fermiers relançant l’agriculture.</p>
 <p>L’Amérique rendra son pouvoir au Japon en Septembre 1951 mais signera avec elle un pacte de défense : l’Amérique protège le Japon militairement, le Japon surveille le pacifique créant un premier écran entre la Russie et les USA. Des troupes Américaines sont d’ailleurs laissées en service sur les îles d’Okinawa (et toujours à ce jour). Le Japon se jette alors dans la production industrielle de masse que lui ont transmise les USA. Forts d’un respect de la hiérarchie et d’une main d’œuvre mixte, les USA ayant préparé le terrain avec des lois sur le travail encourageant l’emploi des femmes, les résultats sont rapidement au rendez-vous. Une grande partie de cette réussite est attribué à Ikeda Hayato 池田勇人 le premier ministre de l’époque que certains nomment aussi l’architecte du Miracle Economique Japonais. Après s’être concentré sur la production des matières premières, le Japon se tourne vers les technologies de pointe à la suite de la première crise pétrolière de 1973. Cependant, en 1985 l’Accord de Plaza va faire éclore la bulle financière du Japon. Cette bulle éclatera en 1992 et entraînera avec elle la décennie perdue.</p>
     </div>
+
+    <footer id="footer">
+        <a href="./connexion.html" id="profil">Profil</a>
+        <a href="./contact.html" id="contact">Contact</a>
+        <a href="./cgu.html" id="cgu">CGU</a>
+      </footer>
+      
+    <div class="espace"></div>
 
 </body>
 </html>

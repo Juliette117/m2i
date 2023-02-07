@@ -2,8 +2,9 @@
     display: hidden;
 }
 .height-affiche{
-    height: 100px;
+    height: 15rem;
+    margin: 0 2rem;
 }
 .text-basicohayo{
-    color: #313756;
+    margin: 1rem;
 }

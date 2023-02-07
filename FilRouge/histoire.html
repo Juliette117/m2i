@@ -5,39 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="japon">
-    <meta name="description" conent="site sur le japon">
-   
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="description" content="site sur le japon">
+    <link rel="shortcut icon" href="./Assets/Images/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/histoire.css">
     <title>OHAYO</title>
 </head>
 
 <body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-    <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>header</title>
-    <script src="index.js"></script>
-    <link rel="stylesheet" href="main.css">
-</head>
-
-<body>
-
-    <header class="d-flex flex-row justify-content-between sticky-top">
-        <div class="dropdown align-self-center">
-    <div id="button">
+<header class="d-flex flex-row justify-content-between sticky-top">
+    <div class="dropdown align-self-center">
+        <div id="button">
             <button class="btn dropdown-toggle bg-ohayo-dark ms-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Catégories
             </button>
             <ul class="dropdown-menu p-2 bs-border-radius">
               <li><a class="dropdown-item bg-ohayo-light my-2" href="./cinema.html">Cinema</a></li>
-              <li><a class="dropdown-item bg-ohayo-light my-2 active-in" href="./histoire.html">Histoire et culture</a></li>
+              <li><a class="dropdown-item bg-ohayo-light my-2" href="./histoire.html">Histoire et culture</a></li>
               <li><a class="dropdown-item bg-ohayo-light my-2" href="./art.html">Arts</a></li>
               <li><a class="dropdown-item bg-ohayo-light my-2" href="./bouffe.html">Gastronomie</a></li>
               <li><a class="dropdown-item bg-ohayo-light my-2" href="./manga.html">Manga et Anime</a></li>
@@ -46,55 +36,65 @@
             </ul>
         </div>
     </div>
-        <div class="ms-7">
-            <a href="home.html"><img 
-                src="./Assets/Images/logotestranspa.png" 
-                alt="Logo Ohayo"
-                title="Logo du Site Ohayo"
-                id="logo"></a>
+    <div class="ms-7">
+        <a href="home.html"><img 
+            src="./Assets/Images/logo-round.gif" 
+            alt="Logo Ohayo"
+            title="Logo du Site Ohayo"
+            id="logo"></a>
+    </div>
+    <div class="align-self-center ms-6">
+        <input type="search" 
+        name="Searchbar" placeholder="Recherche..." id="searchbar">
+        <div class="iconsearch">
+          <iconify-icon icon="bi:search-heart"></iconify-icon>
         </div>
-        <div class="align-self-center ms-6">
-            <input type="search" 
-            name="Searchbar"
-            placeholder="Recherche ...">
-            <div class="iconsearch">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search-heart" viewBox="0 0 16 16">
-                    <path d="M6.5 4.482c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"/>
-                    <path d="M13 6.5a6.471 6.471 0 0 1-1.258 3.844c.04.03.078.062.115.098l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1.007 1.007 0 
-                    0 1-.1-.115h.002A6.5 6.5 0 1 1 13 6.5ZM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11Z"/>
-                </svg>
-            </div>
-        </div>
-        <div class="neko">
-            <a href="./connexion.html">
-                <iconify-icon icon="arcticons:neko" width="120" height="120"></iconify-icon></a>
-        </div>
+    </div>
+    <div class="neko">
+        <a href="./connexion.html">
+            <iconify-icon icon="arcticons:neko" width="120" height="120"></iconify-icon></a>
+    </div>
+</header>
 
 
-    </header>
-    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-    
-    
-
-
-
-
-</body>
-
-
-</html>
-    
+    <div class="espace"></div>
     <h1 class="titre">OHAYO</h1>
+    <div class="espace"></div>
+    <div class="ellipse"></div>
 
-        <div class="espace"></div>    
-        <div class="ellipse"></div>
+    <script src="index.js"></script>
+    
+<body>
+       <section class="title"><h2>Histoire et traditions du Japon</h2></section>
+    
 
-        
-        
-        <a href="./home.html">Accueil</a>
-        
+    <section>
+<div class="col">
+<nav class="Epoque">
+    <section class="catégorie"><h3>Époque</h3></section>
+    <a href="./Le Japon classique.html"><div class="bouton">Le Japon Classique</div></a>
+    <a href="./Le Japon médiéval.html"><div class="bouton">Le Japon Médiéval</div></a>
+    <a href="./Le Japon moderne.html"><div class="bouton">Le Japon Moderne</div></a>
+    <a href="./Le Japon contemporain.html"><div class="bouton">Le Japon Contemporain</div></a>
+</nav>
 
+<nav class="Tradition">
+    <section class="catégorie"><h3>Tradition</h3></section>
+    <a href="./Les coutumes traditionelles.html"><div class="bouton">Les coutumes traditionnelles</div></a>
+    <a href="./Les religions au Japon.html"><div class="bouton">Les religions au Japon</div></a>
+    <a href="./L'Empereur du Japon.html"><div class="bouton">L'Empereur du Japon</div></a>
+    <a href="./Le manga et la pop-culture.html"><div class="bouton">La pop culture japonaise</div></a>
+</nav>
+</div>
+</section>
+
+<footer id="footer">
+    <a href="./profil.html" id="profil">Profil</a>
+    <a href="./contact.html" id="contact">Contact</a>
+    <a href="./cgu.html" id="cgu">CGU</a>
+</footer>
+
+<div class="espace"></div>
 
 </body>
-
 </html>

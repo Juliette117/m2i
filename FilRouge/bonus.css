@@ -1,0 +1,165 @@
+
+.ellipse {
+    position: fixed;
+    margin: -12rem 0 0 43rem !important;
+    width: 500px;
+    height: 500px;    
+}
+
+
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+/*______COULEUR DE LA MAP______*/
+.Hokkaido {
+    fill: rgba(239, 121, 121, 0.7);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.Hokkaido:hover{
+    fill: rgb(93.72549%,47.45098%,47.45098%);
+    stroke: rgb(93.72549%,47.45098%,47.45098%);
+    stroke-width: 0.25;
+
+}
+
+.Tohoku {
+    fill: rgba(239, 233, 121, 0.7);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.Tohoku:hover{
+    fill: rgb(93.72549%,91.372549%,47.45098%);
+    stroke: rgb(93.72549%,91.372549%,47.45098%);
+    stroke-width: 0.25;
+
+}
+
+.Kanto {
+    fill:rgba(135, 239, 121, 0.7);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.Kanto:hover{
+    fill: rgb(52.941176%,93.72549%,47.45098%);
+    stroke: rgb(52.941176%,93.72549%,47.45098%);
+    stroke-width: 0.25;
+
+}
+
+.Chubu {
+    fill:rgba(121, 239, 219, 0.7);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.Chubu:hover{
+    fill: rgb(47.45098%,93.72549%,85.882353%);
+    stroke: rgb(47.45098%,93.72549%,85.882353%);
+    stroke-width: 0.25;
+
+}
+
+.Kansai {
+    fill:rgba(148, 121, 239, 0.7);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.Kansai:hover{
+    fill: rgb(58.431373%,47.45098%,93.72549%);
+    stroke: rgb(58.431373%,47.45098%,93.72549%);
+    stroke-width: 0.25;
+
+}
+
+.Chugoku{
+    fill:rgba(239, 176, 121, 0.7);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.Chugoku:hover{
+    fill:rgb(93.72549%,69.411765%,47.45098%);
+    stroke: rgb(93.72549%,69.411765%,47.45098%);
+    stroke-width: 0.25;
+
+}
+
+.Shikoku{
+    fill:rgba(204, 121, 239, 0.7);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.Shikoku:hover{
+    fill:rgb(80%,47.45098%,93.72549%);
+    stroke: rgb(80%,47.45098%,93.72549%);
+    stroke-width: 0.25;
+}
+
+.Kyushu{
+    fill:rgba(180, 180, 180, 0.7);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.Kyushu:hover{
+    fill:rgb(70.588235%,70.588235%,70.588235%);
+    stroke:rgb(70.588235%,70.588235%,70.588235%);
+    stroke-width: 0.25;
+}
+
+
+
+/*______ALERTES JS______*/
+.text{
+    fill: rgb(255, 255, 255);
+}
+
+.text:hover{
+    fill: #3c3f49;
+}
+
+.swal2-styled.swal2-confirm{
+    display: none;
+    background-color: #CDB1A8;
+    color: #EFEAEA;
+    width: auto; 
+    font-size: large;
+}
+.swal2-styled.swal2-confirm:hover{
+    background-color: #994C4C;
+}
+
+.swal2-container.swal2-center>.swal2-popup{
+    height: 100%;  
+    margin: 1rem;
+    /* overflow:scroll; */
+    /* width: 30%; */
+}
+
+
+
+
+
+/*______LE POTIT CHAT______*/
+.containerNeko {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardNeko {
+    width: 130px;
+    height: 200px;
+    background: url("https://svgsilh.com/svg/1801287.svg") no-repeat ;
+    background-size: 96px 96px;
+    background-position: calc(100% - 16px) calc(100% - 16px);
+  }

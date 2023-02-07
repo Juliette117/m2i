@@ -1,20 +1,75 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La 2nd guerre mondiale</title>
-    <link rel="shortscut icon" href="../Image/logo-OHAYO.png">
-    <link rel="stylesheet" href="../Style/histoire.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="japon">
+        <meta name="description" content="site sur le japon">
+        <link rel="shortcut icon" href="./Assets/Images/logo.png" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/histoire.css">
+        <title>OHAYO</title>
+    </head>
+
+    <body>
+
+        <header class="d-flex flex-row justify-content-between sticky-top">
+            <div class="dropdown align-self-center">
+              <div id="button">
+                  <button class="btn dropdown-toggle bg-ohayo-dark ms-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Catégories
+                  </button>
+                  <ul class="dropdown-menu p-2 bs-border-radius">
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./cinema.html">Cinema</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./histoire.html">Histoire et culture</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./art.html">Arts</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./bouffe.html">Gastronomie</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./manga.html">Manga et Anime</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./langue.html">Langue</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./inventions.html">Inventions</a></li>
+                  </ul>
+              </div>
+            </div>
+              <div class="ms-7">
+                  <a href="home.html"><img 
+                      src="./Assets/Images/logo-round.gif" 
+                      alt="Logo Ohayo"
+                      title="Logo du Site Ohayo"
+                      id="logo"></a>
+              </div>
+              <div class="align-self-center ms-6">
+                  <input type="search" 
+                  name="Searchbar" placeholder="Recherche..." id="searchbar">
+                  <div class="iconsearch">
+                    <iconify-icon icon="bi:search-heart"></iconify-icon>
+                  </div>
+              </div>
+              <div class="neko">
+                  <a href="./connexion.html">
+                      <iconify-icon icon="arcticons:neko" width="120" height="120"></iconify-icon></a>
+              </div>
+          </header>
+          
+              <div class="espace"></div>
+          
+              <h1 class="titre">OHAYO</h1>
+          
+                  <div class="espace"></div>
+                  <div class="ellipse"></div>
+                  
     <div class="main">
 
         
         
         <div class="illustration">
-            <img src="../Image/Atomic_bombing_of_Japan.jpg" height="250" alt="2nd-Guerre">
+            <img src="./Assets/Images/Atomic_bombing_of_Japan.jpg" height="250" alt="2nd-Guerre">
         </div>
         <section class="entête"><h2>La seconde guerre mondiale</h2></section>
     
@@ -28,6 +83,14 @@
         <p>Alors que la Seconde Guerre Mondiale éclate, le Japon allié de l’Allemagne cette fois-ci, se trouve confronté aux USA qui décident de lui couper les apports en pétrole. Le Japon décide alors d’annexer les pays de l’Asie du Sud Est pour palier à la carence. Cette guerre est connue sous le nom de la guerre du Pacifique qui débute avec la Thaïlande en 1941 et s’étend jusqu’à Pearl Harbor. Au paroxysme de son expansion le Japon aura annexé : l’Indochine (France), Malaya (Angleterre), l’Indonésie (Hollande), Hong-Kong (Angleterre), les Philippines (USA) et les îles du Pacifique : Guam et Wake. Vous comprenez maintenant que limiter le Japon à ses Kamikazes lors de la contre-attaque Américaine est plus que restrictif. Car lors de la seconde partie de la seconde guerre mondiale, le Japon affaibli, entre autre par une attaque éclaire de la Russie en Mandchourie, va aussi subir une terrible contre-attaque de la part des Alliés.</p>
 <p>Cette dernière culminera avec l’envoi de la plus terrible arme au monde : la bombe atomique. La première suit un raid de bombardement qui frappa Tokyo, et touche Hiroshima le 6 Août 1945. La seconde, dont l’usage est toujours très controversé (les Américains auraient semblerait-il sommés le Japon de se rendre), touche Nagasaki le 9 Août 1945. Le Japon perd la seconde guerre mondiale et avec elle toute ses conquêtes territoriales. L’Empereur perd ses pouvoirs mais reste sur le trône, le shintoïsme perd son statut de religion d’état, et les USA, sous l’œil de McArthur qui combattit le Japon aux Philippines entre autres, commence à occuper le Japon et à amorcer de nombreuses réformes.</p>
     </div>
+
+    <footer id="footer">
+        <a href="./connexion.html" id="profil">Profil</a>
+        <a href="./contact.html" id="contact">Contact</a>
+        <a href="./cgu.html" id="cgu">CGU</a>
+    </footer>
+      
+        <div class="espace"></div>
 
 </body>
 </html>

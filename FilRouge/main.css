@@ -1,26 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Press+Start+2P&display=swap');
 
-/**{
-    padding: 0;
-    margin: 0;
-}*/
 
 *{
     font-family: 'Courgette', cursive;
 }
 
-body{
+html, body{
     color: #313756;
-    
+    padding: 0;
+    margin: 0;
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*__________HEADER__________*/
 header img{
     width: 7rem;
 }
-header{    
-    background-color: #EFEAEA;
+
+#logo{
+    border-radius: 30%;
+    border: 1px solid #EBE9E4;
 }
+
+.d-flex{
+    background-color: #EFEAEA;
+    position: fixed;
+    width: 100%;
+}
+
 .ms-6{
     margin-left: 30rem;
 }
@@ -36,14 +48,31 @@ header{
     background-color: #CDB1A8;
     color: #EFEAEA !important;
 }
-.dropdown-item:hover{
-    color: #EFEAEA;
-    background-color: #994C4C;
+
+.dropdown-menu{
+    inset: 21px auto auto 20px !important; 
 }
+.dropdown-menu.show{
+    border: 1px solid #EBE9E4;
+    animation: up-to-down 0.8s ease-in forwards;
+    background-color: #EFEAEA;
+    box-shadow: 2px 4px 4px 2px #00000040;
+}
+
 .dropdown-item{
     color: #EFEAEA;
     border-radius: 0.35rem;
     font-size: 20px;
+    transition:0.5s all;
+}
+.dropdown-item:hover{
+    background-color: #994C4C;
+    color: #EFEAEA;
+    
+}
+.dropdown-item:focus{
+    background-color: #994C4C;
+    color: #EFEAEA;
 }
 
 .dropdown-item a:visited{
@@ -67,9 +96,6 @@ header{
     margin: 10px 10px 10px 10px;
     margin: 20px 0 0 4px;
 }
-.dropdown-menu.show{
-    background-color: #EFEAEA;
-}
 
 #searchbar{
     color: #313756;
@@ -77,12 +103,12 @@ header{
 position: absolute;
 border-radius: 1rem;
 padding: 7px 7px 7px 17px;
-margin: 0 0 0 -23rem;
+margin: 0 0 0 -24rem;
 }
 
 .iconsearch{
     position: absolute;
-    margin: 0 0 0 -12rem;
+    margin: 0 0 0 -13rem;
     color: #9ca3ae77;
     font-size: 30px;
     
@@ -90,17 +116,65 @@ margin: 0 0 0 -23rem;
 
 .neko{
     position: absolute;
-    margin: 0 0 0 111rem;
+    margin: 0 0 0 110rem;
 }
 .neko:hover{
     height: 100%;
+    color: #994C4C;
     background-color: #EBE9E4;
     box-shadow: #994C4C 0px -2px 5px 0px inset;
     border-radius: 50%;
 }
-.neko a:visited{
+
+
+
+
+@keyframes up-to-down{
+    0%{ 
+      transform: translatey(-100%);
+      opacity: 0;
+    }
+    100%{ 
+      transform: translatey(0%);
+      opacity: 1;
+    }
+  }
+
+/*__________________________*/
+
+
+
+/*__________FOOTER__________*/
+#footer{
+    background-color: #EFEAEA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 4rem;
+    position: fixed ;
+    bottom: 0;
+    width: 100%;
+    font-size: 26px;
+    border: 1px solid #3137562c;
+
+}
+#footer a:target{
+    color: #9CA3AE;
+}
+
+#profil, #contact, #cgu{
+    text-decoration: none;
+}
+#profil:hover, #contact:hover, #cgu:hover{
+    font-size: 27px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.1s ease-in-out;
+    color: #994C4C !important;
+}
+#profil:visited, #contact:visited, #cgu:visited{
     color: #313756;
 }
+/*__________________________*/
 
 
 
@@ -125,28 +199,35 @@ h1:hover::after{
     text-align: center;
     width: 15%;
 }
+/*__________________________*/
+
 
 /*__________LIENS__________*/
 a{
     color: #313756;
-    text-decoration: none !important; 
+    text-decoration: none; 
 }
 a:hover{
     color: #994C4C;
 }
-a:visited{
-    color: #994C4C;
-}
+/* a:visited{ */
+    /* color: #994C4C; */
+/* } */
+/*__________________________*/
 
-/*__________ESPACE SOUS LE TITRE__________*/
+
+/*___ESPACE SOUS LE TITRE___*/
 .espace{
     padding: 2%;
+}
+.espacex2{
+    padding: 5%;
 }
 
 /*__________FOND__________*/
 .ellipse {
     position: fixed;
-    margin: -2% 0 0 37%;
+    margin: -2rem 0 0 44rem;
     width: 500px;
     height: 500px;
     background-color: #FE1B00;
@@ -154,3 +235,24 @@ a:visited{
     opacity: 0.2;
     z-index: -1;
 }
+
+/*______Scrollbar CSS______*/
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ebe9e4;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #cdb1a7;
+    border-radius: 10px;
+    border: 2px solid #ebe9e4;
+  }
+
+
+  
+  

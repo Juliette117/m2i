@@ -1,8 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Press+Start+2P&display=swap%27);
 
 body{
-    font-family: 'Courgette', cursive;
-    color: #000000; 
     text-align: center;
 
  background-image: url(../Assets/Image/Horimiya.jpg) ;
@@ -12,30 +9,30 @@ body{
  
 }
 
-section{
-    background-color: rgba(255, 255, 255, 0.374);
-
+section h2, p{
+    background-color: rgba(255, 255, 255, 0.505);
+    padding: 1rem;
     
 }
-
 
 .bouton{
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
+    margin: 1rem;
 }
 
-.bouton2{
-    display: flex;
-    justify-content: flex-start;
+.bouton a{
+    color:#EBE9E4;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.bouton a:hover{
+    color: #994C4C;
 }
 
-.div2{
-    padding-right: 36cm;
-    padding-bottom: 4cm;
-    
-}
 
-img {
-    width : 400px;
-    height : 500px;
+
+.horimiya {
+    width : 15%;
+   
     }

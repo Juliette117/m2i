@@ -33,13 +33,13 @@ textarea::placeholder{
     padding: 10px;   
 }
 
-button {
+.buttonForm {
     padding: 7px;
-    margin: 7px 7px 7px 100px !important;
+    margin: 7px 7px 7px 100px;
     color: #313756;
     border: 1px solid #EFEAEA;
     filter: drop-shadow(0 0 0.5rem silver);
-    border-radius: 20px !important;
+    border-radius: 20px;
 }
 button:hover {
     background-color:#994C4C;
@@ -52,7 +52,7 @@ button:active {
     box-shadow:1px 1px 1px #994C4C inset;
 }
 
-input{
+.inputForm{
     padding: 7px 130px 7px 10px;
     background-color: #fff;
     border: 1px solid #EFEAEA;

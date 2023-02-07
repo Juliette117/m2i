@@ -1,20 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="fr">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ére Meiji</title>
-    <link rel="shortscut icon" href="../Image/logo-OHAYO.png">
-    <link rel="stylesheet" href="../Style/histoire.css">
+    <meta name="keywords" content="japon">
+    <meta name="description" content="site sur le japon">
+    <link rel="shortcut icon" href="./Assets/Images/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/histoire.css">
+    <title>OHAYO</title>
 </head>
 <body>
+
+    <header class="d-flex flex-row justify-content-between sticky-top">
+        <div class="dropdown align-self-center">
+          <div id="button">
+              <button class="btn dropdown-toggle bg-ohayo-dark ms-3" type="button" data-bs-toggle="dropdown" aria-expanded= "false">
+                  Catégories
+              </button>
+              <ul class="dropdown-menu p-2 bs-border-radius">
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./cinema.html">Cinema</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./histoire.html">Histoire et culture</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./art.html">Arts</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./bouffe.html">Gastronomie</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./manga.html">Manga et Anime</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./langue.html">Langue</a></li>
+                <li><a class="dropdown-item bg-ohayo-light my-2" href="./inventions.html">Inventions</a></li>
+              </ul>
+          </div>
+        </div>
+          <div class="ms-7">
+              <a href="home.html"><img 
+                  src="./Assets/Images/logo-round.gif" 
+                  alt="Logo Ohayo"
+                  title="Logo du Site Ohayo"
+                  id="logo"></a>
+          </div>
+          <div class="align-self-center ms-6">
+              <input type="search" 
+              name="Searchbar" placeholder="Recherche..." id="searchbar">
+              <div class="iconsearch">
+                <iconify-icon icon="bi:search-heart"></iconify-icon>
+              </div>
+          </div>
+          <div class="neko">
+              <a href="./connexion.html">
+                  <iconify-icon icon="arcticons:neko" width="120" height="120"></iconify-icon></a>
+          </div>
+      </header>
+      
+          <div class="espace"></div>
+      
+          <h1 class="titre">OHAYO</h1>
+      
+              <div class="espace"></div>
+              <div class="ellipse"></div>
     <div class="main">
 
         
         
         <div class="illustration">
-            <img src="../Image/Les-bateaux-noirs.webp" height="250" alt="Meiji">
+            <img src="./Assets/Images/Les-bateaux-noirs.webp" height="250" alt="Meiji">
         </div>
         <section class="entête"><h2>L'Ère Meiji</h2></section>
     
@@ -25,10 +78,19 @@
     </nav>
 
     <div class="meiji">
-        <p>L’empire du Japon (ère Meiji 明治 (1868-1911) – ère Taisho 大正 (1911-1926) – début ère Showa 昭和 (1926-1945))
+        <p>L’empire du Japon (ère Meiji 明治 (1868-1911) – ère Taisho 大正 (1911-1926) – début ère Showa 昭和 (1926-1945))<br>
             Ce dernier s’installera à Edo mais rebaptisera la ville Tokyo, capitale de l’Est. Ce qui est un peu moins connu du public c’est que la France et l’Angleterre ont dans une certaine mesure, participés à cette guerre. En effet, le second empire français supporta le shogun et l’Angleterre enseigna l’art de la guerre occidentale aux shichi qui rêvaient de l’«Esprit japonais, technologies occidentales ». Cependant, de nombreux samourais se sentiront par la suite trahis par l’empereur qui continuera à occidentaliser son cabinet et son gouvernement. Certains supporters du shogunat qui s’enfuirent jusqu’à Hokkaido proclameront cette terre la république d’Ezo 蝦夷共和国 et il faudra attendre 1869 et la bataille d’Hakodate pour que l’empereur soit maître du Japon tel que nous le connaissons. Il est cependant à noter qu’en 1877 le nouveau gouvernement fait face à une rébellion qui lui coûtera des millions de yens mais aussi de nombreuses vies : la rébellion de Satsuma.
             effet, l’empereur Meiji refusant de partir en guerre contre la Corée et la Chine qui refusent de reconnaître le nouveau pouvoir politique, </p>
             <p>le conseiller Saigo Takamori西郷隆盛qui avait mené avec brio les troupes de Satsuma lors du Bakumatsu, quitte le gouvernement et avec lui de nombreux samourais retournent dans sa préfecture. Ayant vent d’une possible menace venant du sud, l’empereur lance sa nouvelle armée contre celle de Saigo Takamori et remporte contre lui la dernière bataille contre un samourai (oui, oui «Le dernier samourai » serait bien lui et non Katsumoto joué par Ken Watanabe) Cette bataille sera la dernière et marquera un tournant décisif dans l’occidentalisation du Japon avec la disparition définitive de la classe des samourais et des guerriers. Sous l’empereur Meiji, le Japon connaîtra aussi sa révolution industrielle notamment avec l’industrie du fer et du métal – Mitsubishi par exemple. En 1889, en réponse au mouvement en faveur des droits de l’Homme, une nouvelle constitution est écrite (constitution de Meiji). Du côté social, des règles comme l’âge minimum pour travailler et le taux horaire maximum sont mis en place. C’est aussi à ce moment que la religion d’état redevient le shintoïsme et que le gouvernement en profite pour élever l’empereur au rang de dieu vivant et développer un sentiment nationaliste qui perdure encore de nos jours.</p>
     </div>
+
+    <footer id="footer">
+        <a href="./profil.html" id="profil">Profil</a>
+        <a href="./contact.html" id="contact">Contact</a>
+        <a href="./cgu.html" id="cgu">CGU</a>
+    </footer>
+
+    <div class="espace"></div>
+
 </body>
 </html>

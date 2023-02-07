@@ -1,0 +1,17 @@
+h5{
+    text-decoration: underline;
+}
+
+
+.img-fluid{
+    max-width: 90%;
+}
+
+.card{
+    margin: 10rem;
+
+}
+
+.ellipse{
+    margin-bottom: 10px;
+}

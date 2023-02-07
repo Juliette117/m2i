@@ -2,17 +2,36 @@
 
 body{
     font-family: 'Courgette', cursive;
-    color: #313756;
-
-
+    color:#313756;
     text-align: center;
+    font-size: 117%;
 
-    background-image: url(../Image/fond-d-écran-mont-fuji.jpeg);
+    background-image: url(../Assets/Images/fond-d-écran-mont-fuji.jpeg);
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 100%;
     background-attachment: fixed;
+}
 
-    
+h2{
+    color: #313756;
+    text-decoration: underline;
+    font-size: 55px;
+}
+
+h3{
+    color: #313756;
+}
+
+a{
+    text-decoration: underline;
+    text-decoration-color: #313756;
+}
+a:visited{
+    color: #313756;
+}
+
+img{
+    border-radius: 2%;
 }
 
 .Epoque {
@@ -36,18 +55,17 @@ body{
     justify-content: center;
 }
 .col {
-    column-width: 600px;
+    column-width: 700px;
     align-items: center;
   }
   .bouton {
-    background: rgba(196, 193, 193, 0.626);
+    background: rgba(196, 193, 193, 0.5);
   width: 250px;
   height: 100px;
   border-radius: 10px;
   text-align: center;
   line-height: 100px;
-  color: #313756;
-  margin: 7% 0;
+  margin: 1rem 0;
   }
 
 .illustration {
@@ -111,13 +129,10 @@ font-size: 17px;
 }
 
 .meiji p {
-    width: 45%;
+    width: 47%;
 font-size: 17px;
 }
 
-.title h2 {
-    font-size: 55px;
-}
 .catégorie h3 {
     font-size: 30px;
 

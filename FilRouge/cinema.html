@@ -1,62 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil cinéma</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styleheader.css">
-    <link rel="stylesheet" href="./css/stylecinema.css">
-    <link rel="stylesheet" href="./css/stylefooter.css">
-
-</head>
-
-<body>
-
-   
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="japon">
+        <meta name="description" content="site sur le japon">
+        <link rel="shortcut icon" href="./Assets/Images/logo.png" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="./css/stylecinema.css">
+        <title>OHAYO</title>
+    </head>
+    
+    <body>
+    
     <header class="d-flex flex-row justify-content-between sticky-top">
         <div class="dropdown align-self-center">
-            <button class="btn dropdown-toggle bg-ohayo-dark ms-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Catégories
-            </button>
-            <ul class="dropdown-menu p-2 bs-border-radius drop-mm">
-              <li><a class="dropdown-item bg-ohayo-light my-2 active-in" href="./cinema.html">Cinema</a></li>
-              <li><a class="dropdown-item bg-ohayo-light my-2" href="./histoire.html">Histoire et culture</a></li>
-              <li><a class="dropdown-item bg-ohayo-light my-2" href="./art.html">Arts</a></li>
-              <li><a class="dropdown-item bg-ohayo-light my-2" href="./bouffe.html">Gastronomie</a></li>
-              <li><a class="dropdown-item bg-ohayo-light my-2" href="./manga.html">Manga et Anime</a></li>
-              <li><a class="dropdown-item bg-ohayo-light my-2" href="./langue.html">Langue</a></li>
-              <li><a class="dropdown-item bg-ohayo-light my-2" href="./inventions.html">Inventions</a></li>
-            </ul>
+            <div id="button">
+                <button class="btn dropdown-toggle bg-ohayo-dark ms-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Catégories
+                </button>
+                <ul class="dropdown-menu p-2 bs-border-radius">
+                  <li><a class="dropdown-item bg-ohayo-light my-2" href="./cinema.html">Cinema</a></li>
+                  <li><a class="dropdown-item bg-ohayo-light my-2" href="./histoire.html">Histoire et culture</a></li>
+                  <li><a class="dropdown-item bg-ohayo-light my-2" href="./art.html">Arts</a></li>
+                  <li><a class="dropdown-item bg-ohayo-light my-2" href="./bouffe.html">Gastronomie</a></li>
+                  <li><a class="dropdown-item bg-ohayo-light my-2" href="./manga.html">Manga et Anime</a></li>
+                  <li><a class="dropdown-item bg-ohayo-light my-2" href="./langue.html">Langue</a></li>
+                  <li><a class="dropdown-item bg-ohayo-light my-2" href="./inventions.html">Inventions</a></li>
+                </ul>
+            </div>
         </div>
         <div class="ms-7">
-            <a href="./home.html"><img 
-                src="./Assets/Image/logo.png" 
+            <a href="home.html"><img src="./Assets/Images/logo-round.gif" 
                 alt="Logo Ohayo"
                 title="Logo du Site Ohayo"
                 id="logo"></a>
         </div>
         <div class="align-self-center ms-6">
             <input type="search" 
-            name="Searchbar"
-            placeholder="Recherche ...">
-            <img src="./Assets/Image/search.svg"
-            alt="Icone de recherche"
-            id="logosearch"
-            position="absolute"
-            class="me-3">
+            name="Searchbar" placeholder="Recherche..." id="searchbar">
+            <div class="iconsearch">
+              <iconify-icon icon="bi:search-heart"></iconify-icon>
+            </div>
         </div>
-        <div>
-            <a href="./#">
-                <img src="./Assets/Image/profilvec.png" 
-                alt="Image profil"></a>
+        <div class="neko">
+            <a href="./connexion.html">
+                <iconify-icon icon="arcticons:neko" width="120" height="120"></iconify-icon></a>
         </div>
-
     </header>
+    
+    
+        <div class="espace"></div>
+        <h1 class="titre">OHAYO</h1>
+        <div class="espace"></div>
+        <div class="ellipse"></div>
+    
+       
     
 
     <div>
@@ -65,8 +70,8 @@
         <section class="p-3 py-3 text-indent-article">Le cinéma japonais est l'un des plus prolifiques au monde, notamment avec son animation qui s'exporte dans le monde entier. Mais le cinéma japonais c'est bien plus que ça, films de Yakuza, films de Samouraïs, romance, guerre. A l'instar de ses grosses pointures, il est eclectique et passionnant. Comme pour toutes les catégories de ce site, préparez-vous à plonger dans un univers dont vous ne soupçonniez pas la profondeur.</section>
             
         <section>
-                <a href="./#1" class="link-color-text border-link" target="_self">
-                    <article class="p-5"><img src="./Assets/Image/hayaomiyazaki.jpg" 
+                <a href="./miyazaki.html" class="link-color-text border-link" target="_self">
+                    <article class="p-5"><img src="./Assets/Images/hayaomiyazaki.jpg" 
                         alt="Illustration de l'article représentant Hayao Miyazaki et son travail"
                         title="Hayao Miyazaki et son travail."
                         class="float-start me-5 illustration-article">
@@ -76,8 +81,8 @@
                         son univers magique qui transporte petits et grands et connu et reconnu dans le monde. "Le parrain de l'animation"
                         est un créateur immortel, dont l'univers inspire de nombreux esprits.</p></article>
                     <section>
-                    <a href="./#2"class="link-color-text" target="_self">
-                        <article class="p-5"><img src="./Assets/Image/combat sans code d'honneur affiche.jpg" 
+                    <a href="./yakuza.html"class="link-color-text" target="_self">
+                        <article class="p-5"><img src="./Assets/Images/combat sans code d'honneur affiche.jpg" 
                             alt="Illustration de l'article sur les films de Yakuza ça représente l'affiche de Combat sans code d'honneur"
                             title="Affiche de Combat sans code d'Honneur"
                             class="float-start me-5 illustration-article">
@@ -92,6 +97,7 @@
         </section>
             
     </div>
+    
 
     <footer id="footer">
         <a href="./connexion.html" id="profil">Profil</a>
@@ -99,7 +105,6 @@
         <a href="./cgu.html" id="cgu">CGU</a>
     </footer>
 
-    
-    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>   
+    <script src="index.js"></script>
 </body>
 </html>
