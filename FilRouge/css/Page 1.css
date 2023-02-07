@@ -1,17 +1,15 @@
-@import url(https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Press+Start+2P&display=swap%27);
 
-body{
-    font-family: 'Courgette', cursive;
-    color: #000000; 
-    text-align: center;
-    
- background-image: url(../Assets/Image/Affiche\ anime\ 3.jpg) ;
+body{   
+ background-image: url(/Assets/Images/best-anime.png) ;
  background-repeat: no-repeat;
  background-size: cover;
  background-attachment: fixed;
- 
 }
-  
+
+h2{
+    color: #313756 !important;
+    font-size: 3rem !important;
+}
 
 .soustitre {
     display: flex;
@@ -19,13 +17,8 @@ body{
     background: rgba(196, 193, 193, 0.619);
     border-radius: 10px;
     text-align: center;
-    line-height: 30px;
-    color: #000000;
-}
-
-.soustitre p {
-height: 60%;
-font-size: 25px;
+    margin: 1rem;
+    
 }
  
 section{
@@ -33,14 +26,19 @@ section{
     display: flex;
     flex-direction: column;
     text-align: center;    
+    font-size: 2rem;
 }
  
 .col{
     
     column-width: 600px;
     align-items: center;
-    color: #000000;
+ 
     
+}
+
+a{
+   color: #313756 !important;
 }
 
  

@@ -1,20 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La pop-culture japonaise</title>
-    <link rel="shortscut icon" href="../Image/logo-OHAYO.png">
-    <link rel="stylesheet" href="../Style/histoire.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="japon">
+        <meta name="description" content="site sur le japon">
+        <link rel="shortcut icon" href="./Assets/Images/logo.png" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/histoire.css">
+        <title>OHAYO</title>
+    </head>
+
+    <body>
+
+        <header class="d-flex flex-row justify-content-between sticky-top">
+            <div class="dropdown align-self-center">
+              <div id="button">
+                  <button class="btn dropdown-toggle bg-ohayo-dark ms-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Catégories
+                  </button>
+                  <ul class="dropdown-menu p-2 bs-border-radius">
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./cinema.html">Cinema</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./histoire.html">Histoire et culture</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./art.html">Arts</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./bouffe.html">Gastronomie</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./manga.html">Manga et Anime</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./langue.html">Langue</a></li>
+                    <li><a class="dropdown-item bg-ohayo-light my-2" href="./inventions.html">Inventions</a></li>
+                  </ul>
+              </div>
+            </div>
+              <div class="ms-7">
+                  <a href="home.html"><img 
+                      src="./Assets/Images/logo-round.gif" 
+                      alt="Logo Ohayo"
+                      title="Logo du Site Ohayo"
+                      id="logo"></a>
+              </div>
+              <div class="align-self-center ms-6">
+                  <input type="search" 
+                  name="Searchbar" placeholder="Recherche..." id="searchbar">
+                  <div class="iconsearch">
+                    <iconify-icon icon="bi:search-heart"></iconify-icon>
+                  </div>
+              </div>
+              <div class="neko">
+                  <a href="./connexion.html">
+                      <iconify-icon icon="arcticons:neko" width="120" height="120"></iconify-icon></a>
+              </div>
+          </header>
+          
+              <div class="espace"></div>
+          
+              <h1 class="titre">OHAYO</h1>
+          
+                  <div class="espace"></div>
+                  <div class="ellipse"></div>
     <div class="main">
 
         
         
         <div class="illustration">
-            <img src="../Image/jpop.jpeg" height="250" alt="pop-culture" /></a>
+            <img src="./Assets/Images/l7mhy32zgl171.jpg" height="250" alt="pop-culture" /></a>
         </div>
         <section class="entête"><h2>La pop-culture japonaise</h2></section>
         <br>
@@ -33,4 +87,13 @@
         <p>En parallèle, les agences artistiques apparaissent et sont à l’affût de nouveaux talents. Ce sont elles qui fabriquent de toute pièce « les idoles » et les codes marketing pour garantir le succès de leurs carrières. Elles assurent le repérage, l’audition et la formation intensive des futures stars. Parmi les pionnières, l’agence Johny and Associates, spécialisée dans le recrutement d’artistes masculins. Peu à peu, les fades copies des vedettes étrangères sont remplacées par des stars locales donnant naissance aux premiers boys band japonais des années 70. Les mélodies sont conçues par des auteurs-compositeurs de renom et les paroles sont toujours chantées en japonais dans un souci de proximité avec le public. Les années 80, quant à elles sont marquées par des figures féminines. Pendant toute une décennie, les idoles aux airs de jeunes filles modèles révolutionnent la J-pop au Pays du Soleil levant. Le phénomène s’essouffle dans les années 90 lorsque l’économie du Japon est au plus haut pour ensuite revenir quelques années plus tard avec la crise financière. Sous l’emprise de la nostalgie, les Japonais repensent aux idoles de leur adolescence. C’est ainsi que le groupe Morning Musume relance l’engouement pour les starlettes dans les années 2000. On peut mentionner le célèbre producteur Yashuki Akimoto, à l’origine des groupes géants féminins. Sous l’influence de la crise, les maisons de disques revoient leur stratégie marketing en proposant aux médias des prestations gratuites en échange de visibilité. Ainsi, les idoles apparaissent partout à la télévision et sur les publicités. Les stars de cette époque se distinguent par des influences urbaines, en phase avec les enfants de la crise. La chanteuse Namie Amuro incarne parfaitement cette rupture et donne un nouvel élan aux idoles de 2e génération.</p>
     </div>
 </body>
+
+<footer id="footer">
+    <a href="./connexion.html" id="profil">Profil</a>
+    <a href="./contact.html" id="contact">Contact</a>
+    <a href="./cgu.html" id="cgu">CGU</a>
+  </footer>
+  
+<div class="espace"></div>
+
 </html>

@@ -1,4 +1,4 @@
-/*__________FORMULAIRE__________*/
+/* __________FORMULAIRE__________ */
 form{
     display: flex;
     flex-direction: column;
@@ -33,13 +33,13 @@ textarea::placeholder{
     padding: 10px;   
 }
 
-button {
+.buttonForm {
     padding: 7px;
-    margin: 7px !important;
+    margin: 7px;
     color: #313756;
     border: 1px solid #EFEAEA;
     filter: drop-shadow(0 0 0.5rem silver);
-    border-radius: 20px !important;
+    border-radius: 20px;
 }
 button:hover {
     background-color:#994C4C;
@@ -52,7 +52,7 @@ button:active {
     box-shadow:1px 1px 1px #994C4C inset;
 }
 
-input{
+.inputForm{
     padding: 7px 130px 7px 10px;
     background-color: #fff;
     border: 1px solid #EFEAEA;
@@ -74,4 +74,21 @@ input[type=text]::placeholder, input[type=email]::placeholder{
 
 }
 
+.lienBouton:hover{
+    color:#EFEAEA;
+}
 
+.swal2-actions{
+    padding: 2rem;
+    width: auto;
+}
+.swal2-styled.swal2-confirm{
+    background-color: #CDB1A8;
+    color: #EFEAEA;
+    width: auto; 
+    font-size: large;
+}
+
+
+
+ 
