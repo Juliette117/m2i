@@ -14,6 +14,7 @@ p{
 .text-indent-article {
     text-indent: 3rem;
 }
+<<<<<<< HEAD
 
 .justify-left{
     float: right;
@@ -21,3 +22,17 @@ p{
     margin-right: 2rem;
 }
 
+=======
+.random img{
+    height: 150px;
+    margin-right: 2rem;
+}
+.random .synopsis{
+    max-width: 75%;
+    margin-bottom: 3rem;
+}
+.random{
+    background-color: #efeaea7f;
+    min-height: 250px;
+}
+>>>>>>> cffe506bec5748539db92ff302352ac2f5968941
