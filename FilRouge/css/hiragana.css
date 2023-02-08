@@ -1,0 +1,23 @@
+table {
+    background-color: #efeaea;
+    color: #313756;
+    border: solid #313756;
+    border-collapse: collapse;
+    width: 42%;
+    }
+    td, th {
+    border: solid 2px #313756;
+    font-size: 20px;
+    }
+    th{
+        padding: 7px;
+    }
+
+.tableau{
+    display: flex;
+    justify-content: center;
+}
+
+.ellipse{
+    margin: -4rem 0 0 44rem;
+}
