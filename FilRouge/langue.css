@@ -1,0 +1,32 @@
+h4{
+    margin-left: 7rem;
+    text-decoration: underline;
+}
+
+li{
+    margin-left: 6rem;
+    font-size: large;
+    list-style: none;
+}
+
+.card {
+    border: 5px solid #EFEAEA;
+    background-color: #EFEAEA;
+    font-size: larger;
+  }
+.card:hover{
+    /*box-shadow: 4px 4px #313756;*/
+    filter: drop-shadow(0 0 1rem #9CA3AE);
+    transition: 0.1s ease-in-out;
+    width: 101%;
+}
+
+.card-img-top{
+    max-height: 170px;
+    min-height: 170px;
+}
+
+.ellipse{
+    margin: -3rem 0 0 44rem;
+}
+

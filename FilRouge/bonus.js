@@ -30,7 +30,7 @@ function alertKanto() {
       text: `La région du Kantō (関東地方) est une division géographique de Honshū, l'île principale du Japon. Les limites de la région du Kantō comprend non seulement la plaine de Kantō, qui ne représente que 40 % environ de sa superficie, mais aussi les zones périphériques formées des collines et montagnes bordant la plaine.
       Le nom de Kantō fait référence à la région située à l'est (東) du point de contrôle (関所) de Hakone. Kantō signifie littéralement l'est de la barrière, en référence aux points de contrôle ou aux barrières qui étaient placés, pendant la période Edo, sur la route de Tōkaidō (qui reliait Edo à Kyoto).
       Située entre la région du Chūbu, à l'ouest et au nord-ouest, et la région du Tōhoku, au nord, limitée par la mer au sud et à l'est, cette région est formée de sept préfectures: Chiba, Gunma, Ibaraki, Kanagawa, Saitama, Tochigi et Tokyo. `,
-      imageUrl: 'https://source.unsplash.com/user/wen_xiao',
+      imageUrl: 'https://source.unsplash.com/user/mosdesign',
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: 'Kanto',
