@@ -14,4 +14,15 @@ p{
 .text-indent-article {
     text-indent: 3rem;
 }
-
+.random img{
+    height: 150px;
+    margin-right: 2rem;
+}
+.random .synopsis{
+    max-width: 75%;
+    margin-bottom: 3rem;
+}
+.random{
+    background-color: #efeaea7f;
+    min-height: 250px;
+}
