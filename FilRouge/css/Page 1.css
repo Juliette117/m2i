@@ -1,9 +1,13 @@
 
 body{   
- background-image: url(/Assets/Images/best-anime.png) ;
+ background-image: url(/Assets/Images/manga.jpeg) ;
  background-repeat: no-repeat;
  background-size: cover;
  background-attachment: fixed;
+}
+
+h1{
+    color: #EBE9E4;
 }
 
 h2{
@@ -39,6 +43,10 @@ section{
 
 a{
    color: #313756 !important;
+}
+
+p{
+    padding: 1rem;
 }
 
  

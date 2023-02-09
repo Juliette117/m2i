@@ -116,3 +116,83 @@ function alertKyushu() {
       confirmButtonText:'Fermer',
     });
 }
+
+function alertOkinawa() {
+  Swal.fire({
+      title: 'Okinawa',
+      text: `Okinawa (沖縄県, Okinawa-ken, en okinawaïen : ウチナー, Uchinaa) est une préfecture du Japon, elle correspond géographiquement à l'archipel Ryūkyū (au sens strict), situé entre
+      l'océan Pacifique et la mer de Chine orientale. Il appartient à l'archipel Nansei, situé à égale distance du Japon et de Taïwan. Sa ville principale est Naha, capitale de la préfecture.
+      Elle est située à 1 554 km à vol d'oiseau au sud-ouest de Tokyo. L'île, par son isolement, présente un endémisme important quant à la faune et la flore, et héberge encore des espèces 
+      d'oiseaux uniques au monde comme le pic d'Okinawa (Sapheopipo noguchii) et le râle d'Okinawa (Gallirallus okinawae). Plusieurs espèces d'animaux découvertes ou décrites sur l'île ont 
+      reçu l'épithète spécifique okinavensis.`,
+      imageUrl: 'https://source.unsplash.com/user/hiro0718',
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: 'Okinawa',
+      confirmButtonText:'Fermer',
+    });
+}
+
+ //Stocker des images dans un tableau
+ const images = [
+  './Assets/Images/photoNV1.jpg',
+  './Assets/Images/photoNV2.jpg',
+  './Assets/Images/photoNV3.jpg',
+  './Assets/Images/photoNV4.jpg',
+  './Assets/Images/photoNV5.jpg',
+  './Assets/Images/photoNV6.jpg',
+  './Assets/Images/photoAmelya1.jpg',
+  './Assets/Images/photoAmelya2.jpg',
+  './Assets/Images/photoAmelya3.jpg',
+  './Assets/Images/photoAmelya4.jpg',
+  './Assets/Images/photoAmelya5.jpg',
+  './Assets/Images/photoJaponMe1.jpg',
+  './Assets/Images/photoJaponMe3.jpg',
+  './Assets/Images/photoJaponMe4.jpg',
+  './Assets/Images/photoJaponMe5.jpg',
+  './Assets/Images/photoJaponMe6.jpg',
+  './Assets/Images/photoJaponMe7.jpg',
+  './Assets/Images/photoJaponMe8.jpg',
+  './Assets/Images/photoJaponMe9.jpg',
+  './Assets/Images/photoJaponMe10.jpg',
+  './Assets/Images/photoJaponMe12.jpg',
+  './Assets/Images/photoJaponMe13.jpg',
+  './Assets/Images/photoJaponMe14.jpg',
+  './Assets/Images/photoJaponMe15.jpg',
+  './Assets/Images/photoJaponMe16.jpg',
+  './Assets/Images/photoJaponMe17.jpg',
+  './Assets/Images/photoJaponMe18.jpg',
+  './Assets/Images/photoJaponMe19.jpg',
+  './Assets/Images/photoJaponMe21.jpg',
+  './Assets/Images/photoJaponMe22.jpg',
+  './Assets/Images/photoJaponMe23.jpg',
+  './Assets/Images/photoJaponMe24.jpg',
+  './Assets/Images/photoJaponMe25.jpg',
+  './Assets/Images/photoJaponMe26.jpg',
+  './Assets/Images/photoJaponMe27.jpg',
+  './Assets/Images/photoJaponMe28.jpg',
+  './Assets/Images/photoJaponMe29.jpg',
+  './Assets/Images/photoJaponMe30.jpg',
+  './Assets/Images/photoJaponMe31.jpg',
+  './Assets/Images/photoJaponMe32.jpg',
+  './Assets/Images/photoJaponMe33.jpg',
+  './Assets/Images/photoJaponMe34.jpg',
+  './Assets/Images/photoJaponMe35.jpg',
+  './Assets/Images/photoJaponMe36.jpg',
+  './Assets/Images/photoJaponMe37.jpg',
+];
+ //Séléctionner élément HTML img
+ const img = document.querySelector(".slide");
+ //Afficher l'image dans mon img HTML 
+ img.src = images[0];
+ //Définir une fonction qui permet de passer d'une image à l'autre
+ let i = 0;
+ const nextSlide = () => {
+   img.src = images[i];
+   i = i + 1;
+   if(i >= images.length){
+     i = 0;
+   }
+   setTimeout(nextSlide, 3000);
+ };
+  nextSlide();

@@ -6,14 +6,33 @@
     height: 500px;    
 }
 
+/*______SLIDE______*/
+.slide{
+    display: flex;
+    justify-content: center;
+    margin-left: 29.5rem;
+    width: 50%;
+    max-height: 530px;
+}
+.dedicaces{
+    display: flex;
+    justify-content: center;
+    color: #9CA3AE;
+}
+.dedicaces a{
+    color: #9CA3AE;
+}
 
+/*_________________*/
 
 .map {
     display: flex;
     justify-content: center;
 }
 
-/*______COULEUR DE LA MAP______*/
+
+
+/*______COULEURS DE LA MAP______*/
 .Hokkaido {
     fill: rgba(239, 121, 121, 0.7);
     transition: 0.5s;
@@ -116,6 +135,18 @@
     stroke-width: 0.25;
 }
 
+.Okinawa{
+    fill:rgba(180, 180, 180, 0.7);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.Okinawa:hover{
+    fill:rgb(70.588235%,70.588235%,70.588235%);
+    stroke:rgb(70.588235%,70.588235%,70.588235%);
+    stroke-width: 0.25;
+}
+
 
 
 /*______ALERTES JS______*/
@@ -149,6 +180,7 @@
 
 
 
+
 /*______LE POTIT CHAT______*/
 .containerNeko {
     display: flex;
@@ -159,7 +191,7 @@
   .cardNeko {
     width: 130px;
     height: 200px;
-    opacity: 0.7;
+    opacity: 0.3;
     background: url("https://svgsilh.com/svg/1801287.svg") no-repeat ;
     background-size: 96px 96px;
     background-position: calc(100% - 16px) calc(100% - 16px);

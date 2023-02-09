@@ -1,10 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Press+Start+2P&display=swap%27);
+
 
 body{
-    font-family: 'Courgette', cursive;
-    color: #313756;
-
-
     text-align: center;
 
     background-image: url(/Assets/Images/High_resolution_wallpaper_background_ID_77700524090.jpg);
@@ -114,8 +110,8 @@ font-size: 20px;
 font-size: 13px;
 }
 
-.title h2 {
-    font-size: 55px;
+ h2 {
+    margin-right: 35rem;
 }
 .catégorie h3 {
     font-size: 30px;
