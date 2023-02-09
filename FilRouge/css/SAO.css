@@ -1,14 +1,10 @@
-@import url(https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Press+Start+2P&display=swap%27);
 
 body{
-    font-family: 'Courgette', cursive;
-    color: #000000; 
     text-align: center;
-
- background-image: url(../Assets/Image/Sao.jpg) ;
- background-repeat: no-repeat;
- background-size: cover;
- background-attachment: fixed;
+    background-image: url(../Assets/Images/Sao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
  
 }
 
@@ -18,22 +14,28 @@ section{
     
 }
 
-
 .bouton{
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
+    margin: 1rem;
 }
 
-.bouton2{
-    display: flex;
-    justify-content: flex-start;
+.bouton a{
+    color:#EBE9E4;
+    font-size: 24px;
+    text-decoration: underline;
 }
-
+.bouton a:hover{
+    color: #994C4C;
+}
 
 .div2{
     padding-right: 0cm;
     padding-bottom: 3cm;
-    
+}
+.div2 img{
+    width : 300px;
+    height : 400px;  
 }
 
 
@@ -44,14 +46,14 @@ section{
     
 }
 
-img {
-    width : 300px;
-    height : 400px;
-    }
-
 .div4{  
         padding-right: 2cm;
         padding-bottom: 2cm;
+}
+
+.div6 img{
+    width : 300px;
+    height : 400px;  
 }
 
 

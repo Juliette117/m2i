@@ -18,17 +18,6 @@ section{
 
 .bouton{
     display: flex;
-    justify-content: flex-end;
-}
-
-.bouton2{
-    display: flex;
-    justify-content: flex-start;
-}
-
-
-.bouton{
-    display: flex;
     justify-content:space-between;
     margin: 1rem;
 }

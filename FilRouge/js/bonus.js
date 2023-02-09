@@ -193,6 +193,6 @@ function alertOkinawa() {
    if(i >= images.length){
      i = 0;
    }
-   setTimeout(nextSlide, 4000);
+   setTimeout(nextSlide, 3000);
  };
   nextSlide();
