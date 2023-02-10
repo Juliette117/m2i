@@ -116,7 +116,7 @@ margin: 0 0 0 -24rem;
 
 .neko{
     position: absolute;
-    margin: 0 0 0 124rem;
+    margin: 0 0 0 110rem;
 }
 .neko:hover{
     height: 100%;
@@ -227,7 +227,7 @@ a:hover{
 /*__________FOND__________*/
 .ellipse {
     position: fixed;
-    margin: -2rem 0 0 51rem;
+    margin: -2rem 0 0 44rem;
     width: 500px;
     height: 500px;
     background-color: #FE1B00;
