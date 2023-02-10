@@ -228,6 +228,7 @@ a:hover{
 .ellipse {
     position: fixed;
     margin: -2rem 0 0 44rem;
+    /* margin: -2rem 0 0 44rem; */
     width: 500px;
     height: 500px;
     background-color: #FE1B00;
